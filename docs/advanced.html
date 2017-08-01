@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>React-Itinerary Advanced Example</title>
+		<style>
+			html, body {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			.container {
+				display: flex;
+				flex-flow: row nowrap;
+			}
+
+			video {
+				flex: 1 1 auto;
+				height: 100%;
+				background-color: black;
+			}
+
+			.storyline {
+				flex: 0 0 400px;
+				height: 100%;
+				background-color: #1b4367;
+				padding: 10px;
+				box-sizing: border-box;
+				color: white;
+				font-family: sans-serif;
+				overflow: auto;
+			}
+
+			.itinerary-item {
+				padding: 5px;
+				width: 100%;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			.itinerary-item.active {
+				background-color: rgba(255, 255, 255, 0.3);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script src="dist/vendor.bundle.js"></script>
+		<script src="dist/advanced.bundle.js"></script>
+	</body>
+</html>

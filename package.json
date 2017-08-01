@@ -1,0 +1,69 @@
+{
+  "name": "react-itinerary",
+  "version": "0.0.1",
+  "description": "Render react components based on time sequences such as video or audio files.",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "build:docs": "webpack -p",
+    "dev-server": "webpack-dev-server",
+    "prepublish": "npm run test && npm run build && npm run build:docs",
+    "test": "jest"
+  },
+  "keywords": [
+    "video",
+    "audio",
+    "render",
+    "react",
+    "timeline",
+    "itinerary"
+  ],
+  "author": "Zach Ripka",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "collectCoverage": true,
+    "mapCoverage": true
+  },
+  "devDependencies": {
+    "@types/enzyme": "^2.8.4",
+    "@types/jest": "^20.0.5",
+    "@types/prop-types": "^15.5.1",
+    "@types/react": "^15.6.0",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-motion": "0.0.23",
+    "enzyme": "^2.9.1",
+    "jest": "^20.0.4",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "rimraf": "^2.6.1",
+    "ts-jest": "^20.0.7",
+    "ts-loader": "^2.3.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachrip/react-itinerary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zachrip/react-itinerary/issues"
+  },
+  "homepage": "https://github.com/zachrip/react-itinerary#readme"
+}
