@@ -2,6 +2,7 @@
 > Render react components based on time sequences such as video or audio files.
  
 [![Build Status](https://travis-ci.org/zachrip/react-itinerary.svg?branch=master)](https://travis-ci.org/zachrip/react-itinerary)
+[![Coverage Status](https://coveralls.io/repos/github/zachrip/react-itinerary/badge.svg)](https://coveralls.io/github/zachrip/react-itinerary)
 ### Why
 Sometimes you want to render certain things based on the current time of a video or music file.
  
