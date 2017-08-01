@@ -1,6 +1,6 @@
 {
   "name": "react-itinerary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Render react components based on time sequences such as video or audio files.",
   "main": "lib/index.js",
   "files": [
