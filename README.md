@@ -9,7 +9,7 @@ Sometimes you want to render certain things based on the current time of a video
 npm install react-itinerary
 ```
  
-### Example
+### Example [more here](https://zachrip.github.io/react-itinerary/)
 This example will change the itinerary item text color when the current video playhead is between 5 and 10 seconds
 ```javascript
 import { ItineraryProvider, ItineraryHost, ItineraryItem } from 'react-itinerary';
@@ -39,4 +39,9 @@ const App = () => (
     </div>
   </ItineraryProvider>
 );
+```
+ 
+### Docs
+```javascript
+
 ```

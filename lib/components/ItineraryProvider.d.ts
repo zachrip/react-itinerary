@@ -1,5 +1,5 @@
 /// <reference types="react" />
-import { Component } from "react";
+import { Component } from 'react';
 declare class ItineraryProvider extends Component {
     static childContextTypes: {
         listenItinerary: (object: any, key: string, componentName: string, ...rest: any[]) => Error;
@@ -7,7 +7,7 @@ declare class ItineraryProvider extends Component {
     };
     listeners: {};
     getChildContext: () => {
-        updateItinerary: (id: any, details: any) => any;
+        updateItinerary: (id: any, currentTime: any) => any;
         listenItinerary: (id: any, handler: any) => void;
     };
     render(): React.ReactElement<any>;

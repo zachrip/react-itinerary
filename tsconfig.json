@@ -3,7 +3,12 @@
 		"declaration": true,
 		"target": "es5",
 		"sourceMap": true,
-		"outDir": "lib"
+		"outDir": "lib",
+		"lib": [
+			"es5",
+			"es6",
+			"dom"
+		]
 	},
 	"include": [
 		"src/**/*"
