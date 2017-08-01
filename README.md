@@ -44,6 +44,8 @@ const App = () => (
 ```
  
 ### Docs
-```javascript
-
-```
+| Component         | props                                                                                                          |
+|-------------------|----------------------------------------------------------------------------------------------------------------|
+| ItineraryProvider | n/a                                                                                                            |
+| ItineraryHost     | id: string; render: function;                                                                                  |
+| ItineraryItem     | id: string; render?: function; onActivated?: function; onDeactivated?: function; end?: number; start?: number; |
